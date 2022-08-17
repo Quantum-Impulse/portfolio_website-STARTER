@@ -27,13 +27,26 @@ const Header = () =>  (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      
+
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>
+
+    <Div3>
+      <SocialIcons href='https://www.github.com/'>
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href='https://www.linkedin.com/'>
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href='https://www.instagram.com/'>
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+
+    </Div3>
   </Container>
 );
 
