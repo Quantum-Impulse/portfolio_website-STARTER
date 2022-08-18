@@ -20,7 +20,9 @@ const Projects = () => (
             <HeaderThree title>{title}</HeaderThree>
             <Hr/>
           </TitleContent>
+          
           <CardInfo>{description}</CardInfo>
+          
           <div>
             <TitleContent>Stack</TitleContent>
 
@@ -30,6 +32,12 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          
+          <UtilityList>
+            <ExternalLinks href={visit}>Code</ExternalLinks>
+            <ExternalLinks href={source}>Source</ExternalLinks>
+          </UtilityList>
+
         </BlogCard>
       ))}
     </GridContainer>
