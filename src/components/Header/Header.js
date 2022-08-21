@@ -36,16 +36,15 @@ const Header = () =>  (
     </Div2>
 
     <Div3>
-      <SocialIcons href='https://www.github.com/'>
+      <SocialIcons href="https://github.com/Quantum-Impulse">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/'>
-        <AiFillLinkedin size="3rem" />
+      <SocialIcons href="https://www.linkedin.com/in/enrique-rivera-jr/">
+          <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href='https://www.instagram.com/'>
+      <SocialIcons href="https://www.instagram.com/_enrxque_/">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
-
     </Div3>
   </Container>
 );
